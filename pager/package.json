@@ -1,0 +1,53 @@
+{
+  "name": "nativescript-ng-pager",
+  "description": "Pager component for NativeScript with Angular (iOS & Android).",
+  "main": "index",
+  "version": "0.0.1",
+  "nativescript": {
+    "platforms": {
+      "ios": "3.0.0",
+      "android": "3.0.0"
+    },
+    "plugin": {
+      "nan": "true",
+      "core3": "false",
+      "pan": "true",
+      "wrapper": "false",
+      "category": "Interface"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sittingbool/nativescript-ng-pager.git"
+  },
+  "keywords": [
+    "NativeScript",
+    "Carousel",
+    "Slider",
+    "Pager",
+    "ViewPager",
+    "DKCarouselView",
+    "iOS",
+    "Android",
+    "sittingbool"
+  ],
+  "author": "Richard Habermann <sittingbool@gmx.de> (https://github.com/sittingbool)",
+  "bugs": "https://github.com/sittingbool/nativescript-ng-pager/issues",
+  "license": "MIT",
+  "homepage": "https://github.com/sittingbool/nativescript-ng-pager",
+  "dependencies": {
+    "@angular/animations": "~4.1.0",
+    "@angular/common": "~4.1.0",
+    "@angular/compiler": "~4.1.0",
+    "@angular/core": "~4.1.0",
+    "@angular/forms": "~4.1.0",
+    "@angular/http": "~4.1.0",
+    "@angular/platform-browser": "~4.1.0",
+    "@angular/router": "~4.1.0",
+    "reflect-metadata": "~0.1.8",
+    "rxjs": "~5.3.0",
+    "tns-core-modules": "~3.1.0",
+    "zone.js": "~0.8.2"
+  },
+  "devDependencies": {}
+}
